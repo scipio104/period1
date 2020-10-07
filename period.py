@@ -4,6 +4,7 @@ import csv
 import sys, codecs
 import copy
 import pandas as pd
+#201007
 # パラメータを設定
 wb = pd.read_excel('固有値.xlsx', 'input')
 mx=wb['M']
@@ -187,7 +188,6 @@ print(pd.DataFrame(y_beata).T)
 
 XBU=x_beata*xv_np
 YBU=y_beata*yv_np
-
 pd.options.display.precision = 5
 print("----sigeki----X----")
 pd_x_beata=pd.DataFrame(x_beata,index=dim,columns=["X"]).T
