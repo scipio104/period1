@@ -5,7 +5,7 @@ import sys, codecs
 import copy
 import pandas as pd
 #201007
-# パラメータを設定=======
+# パラメータを設定==========
 wb = pd.read_excel('固有値.xlsx', 'input')
 mx=wb['M']
 kx=wb['KX']
